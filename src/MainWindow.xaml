@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SimGit"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="SimGit" Height="370.763" Width="542.055" WindowStyle="ThreeDBorderWindow" SnapsToDevicePixels="True" FontSize="13.333" Loaded="Window_Loaded">
     <Grid>
-        
+        <Button x:Name="PushBtn" Content="Commit &amp; Push" HorizontalAlignment="Left" Margin="380,10,0,0" VerticalAlignment="Top" Width="127" Height="27" FontSize="13.333"/>
+        <ListBox x:Name="RepoList" HorizontalAlignment="Left" Height="267" Margin="10,10,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button x:Name="PullBtn" Content="Pull Changes" HorizontalAlignment="Left" Margin="248,10,0,0" VerticalAlignment="Top" Width="127" Height="27" FontSize="13.333"/>
+        <ListBox x:Name="ChangeList" HorizontalAlignment="Left" Height="267" Margin="115,42,0,0" VerticalAlignment="Top" Width="392"/>
+        <Button x:Name="AddRepoBtn" Content="Add Repo" HorizontalAlignment="Left" Margin="10,282,0,0" VerticalAlignment="Top" Width="100" Height="27" FontSize="13.333"/>
     </Grid>
 </Window>
